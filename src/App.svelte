@@ -1,14 +1,10 @@
-<h1>Hello, {name}!</h1>
+<!-- <Obj objectId="00000000-0000-0000-0000-000000000000" /> -->
+<!-- <List date="{Date.now()/1000}" /> -->
 
-<p>My 2nd Svelte app</p>
-
-<style>
-  p {
-     color: #1d4585; 
-     text-decoration: underline;
-  }
-</style>
+<ViewAdd />
 
 <script>
-  export let name = ''
+  // import Obj from './components/Obj.svelte'
+  // import List from './components/List.svelte'
+  import ViewAdd from './components/ViewAdd.svelte'
 </script>
