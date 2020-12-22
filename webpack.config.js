@@ -7,7 +7,7 @@ const prod = mode === 'production'
 
 module.exports = {
   entry: {
-    bundle: [path.resolve(__dirname, 'src/main.js')],
+    bundle: [path.resolve(__dirname, 'src/main.js')]
   },
   resolve: {
     extensions: ['.mjs', '.js', '.svelte'],
