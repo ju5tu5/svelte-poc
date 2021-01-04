@@ -4,6 +4,7 @@
 <ViewAdd />
 
 <script>
+
   // import Obj from './components/Obj.svelte'
   // import List from './components/List.svelte'
   import ViewAdd from './components/ViewAdd.svelte'

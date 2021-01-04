@@ -35,14 +35,13 @@ const dispatch = createEventDispatcher()
 // Props for the view
 export let content
 export let title
+
 let formError = null
 let running = false
 
 async function submit() {
     // Semaphore
-    if (running) {
-        return
-    }
+    if (running) return
     running = true
 
     // Errors

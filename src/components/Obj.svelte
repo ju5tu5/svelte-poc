@@ -15,6 +15,7 @@
   import ErrorBox from './ErrorBox.svelte'
   import {LoadObject} from '../lib/Requests.js'
   import {token} from '../stores.js'
+  
   export let objectId = null
   let contentPromise = Promise.resolve({})
   $:contentPromise = LoadObject(objectId, $token)
